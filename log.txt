@@ -1,0 +1,37 @@
+1]git config --global user.name “[firstname lastname]”
+--set a name that is identi?able for credit when review version history
+
+2]git config --global user.email “[valid-email]”
+--set an email address that will be associated with each history marker
+
+3]git init
+--initialize an existing directory as a Git repository
+
+4]git clone [url]
+--retrieve an entire repository from a hosted location via URL
+
+5]git status
+--show modi?ed ?les in working directory, staged for your next commit
+
+6]git add [file]
+--add a ?le as it looks now to your next commit (stage)
+
+7]git commit -m “[descriptive message]”
+--commit your staged content as a new commit snapshot
+
+8]git branch
+--list your branches. a * will appear next to the currently active branch
+
+9]git branch [branch-name]
+--create a new branch at the current commit
+
+10]git checkout
+--switch to another branch and check it out into your working directory
+
+11]git merge [branch]
+--merge the speci?ed branch’s history into the current one
+
+12]git log
+--show all commits in the current branch’s history
+
+
