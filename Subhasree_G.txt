@@ -1,0 +1,11 @@
+git clone <link.com> : for cloning the link
+git remote: for establishing and managing connections of repositories.
+git branch <branchname> :creating branch of branchname
+touch <log.txt> : creating a new file.
+git checkout <brname> : to go to brname
+echo : to add text in text file
+git merge <branchname> : to merge with a branch.
+git add . : to save changes.
+mv old new: renaming a file
+git commit : commit changes
+git push: to push the changes
