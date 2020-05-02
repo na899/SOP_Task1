@@ -1,8 +1,7 @@
-Mayank:
-1]git config --global user.name ï¿½[firstname lastname]ï¿½
+1]git config --global user.name “[firstname lastname]”
 --set a name that is identi?able for credit when review version history
 
-2]git config --global user.email ï¿½[valid-email]ï¿½
+2]git config --global user.email “[valid-email]”
 --set an email address that will be associated with each history marker
 
 3]git init
@@ -17,7 +16,7 @@ Mayank:
 6]git add [file]
 --add a ?le as it looks now to your next commit (stage)
 
-7]git commit -m ï¿½[descriptive message]ï¿½
+7]git commit -m “[descriptive message]”
 --commit your staged content as a new commit snapshot
 
 8]git branch
@@ -30,19 +29,9 @@ Mayank:
 --switch to another branch and check it out into your working directory
 
 11]git merge [branch]
---merge the speci?ed branchï¿½s history into the current one
+--merge the speci?ed branch’s history into the current one
 
 12]git log
---show all commits in the current branchï¿½s history
+--show all commits in the current branch’s history
 
-Ashwath:
-
-cd <folder location> - to navigate to respective folder
-git clone <url> - to clone remote repo to local repo
-git branch <branchname> - to create new branch with specified branch name
-git checkout <branchname> - to switch to respective branch
-git merge <branchname> - to merge branch with another branch
-git add <filename> - to stage changes in file to local repo
-git commit -m "comment"- to commit changes that was staged to local repo
-git push - to sync changes to remote repo
 
